@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>de.uni-wuerzburg.coboslab</groupId>
+    <artifactId>xcsf</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>JavaXCSF</name>
+    <description>XCSF Learning Classifier System</description>
+    <url>http://www.coboslab.psychologie.uni-wuerzburg.de/code/</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>http://www.coboslab.psychologie.uni-wuerzburg.de/code/</connection>
+        <url>http://www.coboslab.psychologie.uni-wuerzburg.de/code/</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>stalph</id>
+            <name>Patrick O. Stalph</name>
+            <email>patrick.stalph@psychologie.uni-wuerzburg.de</email>
+        </developer>
+        <developer>
+            <id>butz</id>
+            <name>Martin V. Butz</name>
+            <email>mbutz@psychologie.uni-wuerzburg.de</email>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>java3d</groupId>
+            <artifactId>j3d-core</artifactId>
+            <version>1.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>java3d</groupId>
+            <artifactId>j3d-core-utils</artifactId>
+            <version>1.3.1</version>
+        </dependency>
+    </dependencies>
+</project>
